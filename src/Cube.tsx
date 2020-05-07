@@ -56,7 +56,7 @@ export default function Cube(props: {timelineSeq: Timeline[], counter: number, s
                 }
             }
         }
-        let id = setInterval(tick, 30);
+        let id = setInterval(tick, 20);
         return () => clearInterval(id);
     }, [twisty, props.counter] )
 
