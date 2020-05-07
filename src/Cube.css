@@ -1,0 +1,7 @@
+.twisty {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    transform-origin: top left;
+    transform: scale(0.6);
+  }

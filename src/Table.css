@@ -1,0 +1,124 @@
+
+.active {
+    background-color: deepskyblue;
+    border-width: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 100%;
+}
+
+td {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.table {
+    border-collapse: collapse;
+    margin: 0px;
+}
+
+.textleft {
+    font-size: 40px;
+}
+
+.right-small {
+    padding-left: 15px;
+    text-align: right;
+    font-size: 18px;
+    min-width: 30px
+}
+
+
+.table-time-td {
+    padding-left: 15px;
+    padding-right: 18px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 200;
+    padding-bottom: 10px;
+
+    min-width: 30px;
+}
+
+.table-name-td {
+    width: 40%;
+}
+.table-delta-td {
+    text-align: right;
+    font-weight: 200;
+    font-size: 18px;
+
+    min-width: 30px;
+}
+
+.table-meta-td {
+    min-width: 40px;
+    font-size: 35px;
+    padding-left: 18px;
+
+    text-align: center;
+    border-left: 1px solid white;
+}
+
+.time {
+    text-align: right;
+    padding-top: 0px;
+    margin-right: 0px;
+    font-size: 58px;
+    color: red;
+}
+
+.moves {
+text-align: right;
+padding-top: 5px;
+padding-bottom: 20px;
+font-size: 30px;
+}
+
+.stageName {
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 50px;
+    display: inline-block;
+    margin-bottom: 18px;
+    min-height: 40px;
+}
+
+.stageMoves {
+    font-size: 28px;
+    margin-bottom: 10px;
+    min-height: 40px;
+}
+
+.party {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    opacity: 0.9;
+    color: white;
+}
+
+.party-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.party-name {
+    font-size: .8rem;
+}
+.party-moves {
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+
+.party-stat {
+    font-weight: 600;
+    font-size: .9rem;
+}
