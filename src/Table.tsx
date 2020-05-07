@@ -1,7 +1,6 @@
 import React from 'react';
 import './Table.css';
 import { Stage, StageAvg, Solve } from './Defs';
-import { setAlgPartTypeMismatchReportingLevel } from 'cubing/dist/esm/src/alg';
 
 type Format = {
     l: number;
@@ -9,7 +8,7 @@ type Format = {
 }
 
 export default function Table(props: { data: Solve, avg_data: StageAvg[], time: number, format: Format }) {
-    let { data, avg_data, time, format } = props
+    let { data, avg_data, time } = props
     let curr_step = -1, tot_time = 0, tot_count = 0
     for (var i = 0; i < data.stages.length; i++) {
       tot_time += data.stages[i].time

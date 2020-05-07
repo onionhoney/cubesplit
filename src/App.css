@@ -1,8 +1,30 @@
 .App {
   text-align: left;
-  background-color: papayawhip;
+  background-color: azure; /* papayawhip; */
+  padding: 30px;
+  padding-top: 10px;
 }
 
+textarea {
+  font-family: monaco, monospace;
+}
+label {
+  padding-left: 10px;
+  font-weight: 600;
+  height: 30px;
+  width: 100px;
+  display: inline-block;
+}
+input[type='range'] {
+  height: 30px;
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+input[type='file'] {
+  height :20px;
+  font-size: 16px;
+}
 .tableContainer{
   position: fixed;
   top: 30px;
@@ -32,9 +54,4 @@
 
 .cubeContainer {
   margin-left: 25px;
-}
-.container_ {
-  display: grid;
-  grid-template-rows: 50px 50px 50px;
-  grid-template-columns: 10px 100px 30px 30px;
 }

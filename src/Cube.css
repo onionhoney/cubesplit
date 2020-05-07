@@ -5,3 +5,7 @@
     transform-origin: top left;
     transform: scale(0.6);
   }
+
+.twisty-wrapper {
+  height: 275px;
+}

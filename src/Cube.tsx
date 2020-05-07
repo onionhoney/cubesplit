@@ -60,7 +60,7 @@ export default function Cube(props: {timelineSeq: Timeline[], counter: number, s
         return () => clearInterval(id);
     }, [twisty, props.counter] )
 
-    return <div>
+    return <div className="twisty-wrapper">
         <div className="twisty" ref={twisty_ref}> </div>
         {/* {twisty_obj ? twisty_obj.element : null} */}
     </div>
